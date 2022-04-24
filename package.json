@@ -1,0 +1,27 @@
+{
+  "name": "kafka-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumahr/kafka-producer.git"
+  },
+  "author": "kumahr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumahr/kafka-producer/issues"
+  },
+  "homepage": "https://github.com/kumahr/kafka-producer#readme",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "kafka-node": "^5.0.0"
+  }
+}
